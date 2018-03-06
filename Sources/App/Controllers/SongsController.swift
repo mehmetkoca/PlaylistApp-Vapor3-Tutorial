@@ -19,6 +19,21 @@ struct SongsController: RouteCollection {
          değişkenler olacak.
          */
         songsRoute.post(use: createSong)
+        /*
+         /api/songs/1 gibi parametre kullanmak için kullandığımız
+         route yapısı.
+        */
+        songsRoute.get(Song.parameter, use: getSong)
+        /*
+         /api/songs/1 gibi spesifik bir veriyi silmek için
+         kullandığımız route yapısı.
+        */
+        songsRoute.delete(Song.parameter, use: deleteSong)
+        /*
+         /api/songs/1 gibi URL'deki verileri güncellemek için
+         put methodu kullandığımız route yapısı.
+        */
+        songsRoute.put(Song.parameter, use: updateSong)
     }
     
     // Tüm Song tipindeki verileri geri döndürecek fonksiyon
@@ -40,7 +55,72 @@ struct SongsController: RouteCollection {
         // Fluent query ile song'u kaydediyoruz.
         return song.save(on: req)
     }
+    
+    /*
+     parametre girerek spesifik bir veriyi getirmek için
+     kullandığımız fonksiyon yapısı.
+    */
+    func getSong(_ req: Request) throws -> Future<Song> {
+        return try req.parameter(Song.self)
+    }
+    
+    /*
+     silme işlemi sonucunda dönecek olan HTTPStatus değerini
+     flatMap ile yakalayıp içeriği noContent ile değiştiriyoruz.
+     silme işlemini Fluent delete() methodu ile yapıyor.
+    */
+    func deleteSong(_ req: Request) throws -> Future<HTTPStatus> {
+        return try req.parameter(Song.self).flatMap(to: HTTPStatus.self) { song in
+            return song.delete(on: req).transform(to: .noContent)
+        }
+    }
+    
+    /*
+     güncelleme işlemi için aşağıdaki gibi bir yapı kullanıyoruz.
+     flatMap içerisinde Song'u decode ettikten sonra var olan verileri
+     güncelliyoruz.
+    */
+    func updateSong(_ req: Request) throws -> Future<Song> {
+        return try flatMap(to: Song.self, req.parameter(Song.self), req.content.decode(Song.self)) { song, updatedSong in
+            song.artist = updatedSong.artist
+            song.title = updatedSong.title
+            return song.save(on: req)
+        }
+    }
 }
+
+/*
+ Song sınıfı ile ilgili işlemlerde requestin parametre kabul etmesi
+ için extension ekliyoruz.
+ */
+extension Song: Parameter {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
