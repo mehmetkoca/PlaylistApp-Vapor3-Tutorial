@@ -1,0 +1,4 @@
+module CSQLite {
+    umbrella "/Users/mehmet/Vapor/PlaylistApp/.build/checkouts/sqlite.git--8232814251736334455/Sources/CSQLite/include"
+    export *
+}
