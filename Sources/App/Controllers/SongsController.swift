@@ -94,33 +94,3 @@ struct SongsController: RouteCollection {
  için extension ekliyoruz.
  */
 extension Song: Parameter {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
