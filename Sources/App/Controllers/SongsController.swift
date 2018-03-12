@@ -34,6 +34,13 @@ struct SongsController: RouteCollection {
          put methodu kullandığımız route yapısı.
         */
         songsRoute.put(Song.parameter, use: updateSong)
+        
+        // api/songs/1/creator üzerinden ulaşılacak route yapısı
+        songsRoute.get(Song.parameter, "creator", use: getCreator)
+        // api/songs/1/genres üzerinden ulaşılacak route yapısı
+        songsRoute.get(Song.parameter, "genres", use: getGenres)
+        // api/songs/1/genres/2 gibi bir route yapısı oluşturduk
+        songsRoute.post(Song.parameter, "genres", Genre.parameter, use: addGenre)
     }
     
     // Tüm Song tipindeki verileri geri döndürecek fonksiyon
@@ -87,6 +94,29 @@ struct SongsController: RouteCollection {
             return song.save(on: req)
         }
     }
+    
+    // Song'un creator'unu getirmek için kullanılacak fonksiyon
+    func getCreator(_ req: Request) throws -> Future<User> {
+        return try req.parameter(Song.self).flatMap(to: User.self) { song in
+            return song.creator.get(on: req)
+        }
+    }
+    
+    // Song'un genre'larını getirmek için kullanacağımız fonksiyon.
+    func getGenres(_ req: Request) throws -> Future<[Genre]> {
+        return try req.parameter(Song.self).flatMap(to: [Genre].self) { song in
+            return try song.genres.query(on: req).all()
+        }
+    }
+    
+    // Song'a Genre eklemek için kullanacağımız fonksiyon
+    func addGenre(_ req: Request) throws -> Future<HTTPStatus> {
+        return try flatMap(to: HTTPStatus.self, req.parameter(Song.self), req.parameter(Genre.self)) { song, genre in
+            // SongGenrePivot'u burada modellerin requireID'leri ile kullanacağız
+            let pivot = try SongGenrePivot(song.requireID(), genre.requireID())
+            return pivot.save(on: req).transform(to: .ok)
+        }
+    }
 }
 
 /*
@@ -94,3 +124,33 @@ struct SongsController: RouteCollection {
  için extension ekliyoruz.
  */
 extension Song: Parameter {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

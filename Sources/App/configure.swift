@@ -32,6 +32,12 @@ public func configure(
     // Configure migrations
     var migrations = MigrationConfig()
     migrations.add(model: Song.self, database: .sqlite)
+    // SQLite'ın User sınıfını kullanacağını belirttik.
+    migrations.add(model: User.self, database: .sqlite)
+    // SQLite'ın Genre sınıfını kullanacını belirttik.
+    migrations.add(model: Genre.self, database: .sqlite)
+    // SQLite'ın SongGenrePivot sınıfını kullanılacağını belirttik.
+    migrations.add(model: SongGenrePivot.self, database: .sqlite)
     services.register(migrations)
 
     // Configure the rest of your application here
