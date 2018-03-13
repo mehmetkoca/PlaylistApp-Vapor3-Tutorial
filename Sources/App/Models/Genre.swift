@@ -1,5 +1,5 @@
 import Vapor
-import FluentSQLite
+import FluentMySQL
 
 final class Genre: Codable {
     var id: Int?
@@ -10,7 +10,7 @@ final class Genre: Codable {
     }
 }
 
-extension Genre: SQLiteModel {}
+extension Genre: MySQLModel {}
 extension Genre: Migration {}
 extension Genre: Content {}
 

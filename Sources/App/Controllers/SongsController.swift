@@ -1,4 +1,5 @@
 import Vapor
+import Fluent
 
 // RouteCollection boot fonksiyonunu içeriyor.
 // boot fonksiyonu SongsContoller için routing
@@ -41,6 +42,8 @@ struct SongsController: RouteCollection {
         songsRoute.get(Song.parameter, "genres", use: getGenres)
         // api/songs/1/genres/2 gibi bir route yapısı oluşturduk
         songsRoute.post(Song.parameter, "genres", Genre.parameter, use: addGenre)
+        // search için kullanacağımız route yapısı
+        songsRoute.get("search", use: searchSong)
     }
     
     // Tüm Song tipindeki verileri geri döndürecek fonksiyon
@@ -117,6 +120,22 @@ struct SongsController: RouteCollection {
             return pivot.save(on: req).transform(to: .ok)
         }
     }
+    
+    func searchSong(_ req: Request) throws -> Future<[Song]> {
+        // /api/songs/search?term=Bonobo gibi bir URL üzerinden istek atacağız.
+        // String parametre alan ve term keyword'u üzerinden işlem yaptıracağımız
+        // yapı aşağıdaki gibi olacak.
+        // Optional String geri döneceği için unwrap etmemiz ve nil gelme
+        // ihtimaline karşı guard-let yapısı kullanmamız gerekiyor.
+        guard let searchTerm = req.query[String.self, at: "term"] else {
+            throw Abort(.badRequest, reason: "Missing search term in request")
+        }
+        // artist üzerinden term'e girdiğimiz string'i aratıyoruz ve tüm sonuçları döndürüyoruz.
+        return Song.query(on: req).group(.or){ or in
+            or.filter(\.artist == searchTerm)
+            or.filter(\.title == searchTerm)
+        }.all()
+    }
 }
 
 /*
@@ -124,33 +143,3 @@ struct SongsController: RouteCollection {
  için extension ekliyoruz.
  */
 extension Song: Parameter {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

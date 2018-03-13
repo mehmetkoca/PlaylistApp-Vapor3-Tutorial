@@ -1,4 +1,4 @@
-import FluentSQLite
+import FluentMySQL
 import Vapor
 
 final class Song: Codable {
@@ -14,7 +14,7 @@ final class Song: Codable {
     }
 }
 // Song sınıfını model olarak görmesini sağladık
-extension Song: SQLiteModel {}
+extension Song:  MySQLModel {}
 extension Song: Content {}
 extension Song: Migration {}
 
