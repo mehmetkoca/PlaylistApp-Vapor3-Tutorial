@@ -20,6 +20,6 @@
 </center>
 
 [Server Side Swift: Vapor 3 — Bölüm 1: Başlangıç](https://medium.com/nsistanbul/server-side-swift-vapor-3-bölüm-1-başlangıç-3f38ccfd3ab1) <br>
-[Server Side Swift: Vapor 3 — Bölüm 2: API Oluşturma Part 1/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-bölüm-2-api-oluşturma-part-1-2-809e7cf8485c)
+[Server Side Swift: Vapor 3 — Bölüm 2: API Oluşturma Part 1/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-bölüm-2-api-oluşturma-part-1-2-809e7cf8485c) <br>
 [Server Side Swift: Vapor 3 — Bölüm 2: API Oluşturma Part 2/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-api-oluşturma-part-2-2-f93923d6db45)
 
