@@ -10,6 +10,9 @@ public func routes(_ router: Router) throws {
     
     let genresController = GenresController()
     try router.register(collection: genresController)
+    
+    let websiteController = WebsiteController()
+    try router.register(collection: websiteController)
 }
 
 

@@ -74,6 +74,15 @@
         }
       },
       {
+        "package": "Leaf",
+        "repositoryURL": "https://github.com/vapor/leaf.git",
+        "state": {
+          "branch": null,
+          "revision": "25583fb3e3e40bf38ef7f762a05690f07d604060",
+          "version": "3.0.0-rc.1"
+        }
+      },
+      {
         "package": "MySQL",
         "repositoryURL": "https://github.com/vapor/mysql.git",
         "state": {
