@@ -5,6 +5,25 @@
   <title>#(title) | Songs</title>
 </head>
 <body>
-<h1>Hello World</h1>
+  <h1>Songs</h1>
+
+  #if(songs) { 
+    <table>
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody>
+        #for(song in songs) {
+          <tr><td>#(song.artist)</td><td><a href="/songs/#(song.id)">#(song.title)</a></td></tr>
+        }
+      </tbody>
+    </table>
+  } else {
+    <h2>There aren't any song yet!</h2>
+  }
+
 </body>
 </html>

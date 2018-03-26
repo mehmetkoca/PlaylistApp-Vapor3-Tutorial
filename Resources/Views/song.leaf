@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>#(title) | Songs</title>
+</head>
+<body>
+  <h1>#(song.title)</h1>
+  <h2>#(song.artist)</h2>
+
+  <p> Created by #(creator.name)
+</body>
+</html>
