@@ -61,7 +61,7 @@ struct SongsController: RouteCollection {
          await kullanıyoruz. Bu, işlemimizin yarıda kesilmesini
          engelliyor.
          */
-        let song = try req.content.decode(Song.self).await(on: req)
+        let song = try req.content.decode(Song.self)
         // Fluent query ile song'u kaydediyoruz.
         return song.save(on: req)
     }
@@ -101,7 +101,7 @@ struct SongsController: RouteCollection {
     // Song'un creator'unu getirmek için kullanılacak fonksiyon
     func getCreator(_ req: Request) throws -> Future<User> {
         return try req.parameter(Song.self).flatMap(to: User.self) { song in
-            return song.creator.get(on: req)
+            return try song.creator.get(on: req)
         }
     }
     
@@ -131,9 +131,9 @@ struct SongsController: RouteCollection {
             throw Abort(.badRequest, reason: "Missing search term in request")
         }
         // artist üzerinden term'e girdiğimiz string'i aratıyoruz ve tüm sonuçları döndürüyoruz.
-        return Song.query(on: req).group(.or){ or in
-            or.filter(\.artist == searchTerm)
-            or.filter(\.title == searchTerm)
+        return try Song.query(on: req).group(.or){ or in
+            try or.filter(\.artist == searchTerm)
+            try or.filter(\.title == searchTerm)
         }.all()
     }
 }

@@ -15,9 +15,8 @@ struct GenresController: RouteCollection {
     
     // genre oluşturmak için kullanacağımız fonksiyon
     func createGenre(_ req: Request) throws -> Future<Genre> {
-        return try req.content.decode(Genre.self).flatMap(to: Genre.self) { genre in
-            return genre.save(on: req)
-        }
+        let genre = try req.content.decode(Genre.self)
+        return genre.save(on: req)
     }
     
     // tüm genre'ları getirmek için kullanacağımız fonksiyon
