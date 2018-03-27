@@ -2,8 +2,8 @@
  <h1>Songs</h1>
 
   #if(songs) { 
-    <table>
-      <thead>
+    <table class="table table-bordered table-hover">
+      <thead class="thead-light">
         <tr>
           <th>Artist</th>
           <th>Title</th>

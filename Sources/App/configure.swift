@@ -29,7 +29,7 @@ public func configure(
 
     // Configure a SQLite database
     var databases = DatabaseConfig()
-    let mysqlConfig = MySQLDatabaseConfig(hostname: "localhost", port: 3306, username: "root", password: "baldeagle5", database: "vapor")
+    let mysqlConfig = MySQLDatabaseConfig(hostname: "localhost", port: 3306, username: "root", password: "password", database: "vapor")
     let database = MySQLDatabase(config: mysqlConfig)
     databases.add(database: database, as: .mysql)
     services.register(databases)
