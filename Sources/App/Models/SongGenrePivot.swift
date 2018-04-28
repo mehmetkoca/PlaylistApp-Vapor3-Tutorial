@@ -9,7 +9,7 @@ final class SongGenrePivot: MySQLUUIDPivot {
     
     // Fluent'in aralarında ilişki kurması için Right ve Left tanımladık.
     typealias Left = Song
-    typealias Right = Genre
+    typealias Right = Genre 
     
     // modellerin id'lerini tanıtıyoruz.
     static let leftIDKey: LeftIDKey = \SongGenrePivot.songID

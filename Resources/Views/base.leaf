@@ -18,6 +18,12 @@
         <li class="nav-item #if(title == "Homepage"){active}">
           <a href="/" class="nav-link">Home</a>
         </li>
+        <li class="nav-item #if(title == "All Users"){active}">
+          <a href="/users" class="nav-link">All Users</a>
+        </li>
+        <li class="nav-item #if(title == "All Genres"){active}">
+          <a href="/genres" class="nav-link">All Genres</a>
+        </li>
       </ul>
     </div>
   </nav>

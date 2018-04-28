@@ -10,6 +10,12 @@ struct WebsiteController: RouteCollection {
         router.get("songs", Song.parameter, use: songHandler)
         // user sayfası için kullanılacak route yapısı
         router.get("users", User.parameter, use: userHandler)
+        // tüm userları getirecek fonksiyon için yazdığımız route yapısı.
+        router.get("users", use: allUsersHandler)
+        // genre'ya ulaşacağımız route yapısı
+        router.get("genres", Genre.parameter, use: GenreHandler)
+        // tüm genre'ları getirmek için kullanacağımız route yapısı
+        router.get("genres", use: allGenresHandler)
     }
     
     // index page için kullanacağımız fonksiyon
@@ -27,8 +33,8 @@ struct WebsiteController: RouteCollection {
     // linklendirdiğimiz song'lar için kullanılacak fonksiyon
     func songHandler(_ req: Request) throws -> Future<View> {
         return try req.parameter(Song.self).flatMap(to: View.self) { song in
-            return try song.creator.get(on: req).flatMap(to: View.self) { creator in
-                let context = SongContext(title: song.title, song: song, creator: creator)
+            return try flatMap(to: View.self, song.creator.get(on: req), song.genres.query(on: req).all()) { creator, genres in
+                let context = SongContext(title: song.title, song: song, creator: creator, genres: genres.isEmpty ? nil : genres )
                 return try req.leaf().render("song",context)
             }
         }
@@ -41,6 +47,32 @@ struct WebsiteController: RouteCollection {
                 let context = UserContext(title: user.name, user: user, songs: songs.isEmpty ? nil: songs)
                 return try req.leaf().render("user",context)
             }
+        }
+    }
+    
+    // tüm User'ları çekeceğimiz fonksiyon
+    func allUsersHandler(_ req: Request) throws -> Future<View> {
+        return User.query(on: req).all().flatMap(to: View.self) { users in
+            let context = AllUserContext(title: "All Users", users: users)
+            return try req.leaf().render("allUsers",context)
+        }
+    }
+    
+    // genre page için kullanacağımız fonksiyon
+    func GenreHandler(_ req: Request) throws -> Future<View> {
+        return try req.parameter(Genre.self).flatMap(to: View.self) { genre in
+            return try genre.songs.query(on: req).all().flatMap(to: View.self) { songs in
+                let context = GenreContext(title: genre.name, genre: genre, songs: songs)
+                return try req.leaf().render("genre", context)
+            }
+        }
+    }
+    
+    // tüm genre'ları getirmek için kullanacağımız fonksiyon
+    func allGenresHandler(_ req: Request) throws -> Future<View> {
+        return Genre.query(on: req).all().flatMap(to: View.self) { genres in
+            let context = AllGenresContext(title: "All Genres", genres: genres)
+            return try req.leaf().render("allGenres", context)
         }
     }
 }
@@ -65,10 +97,27 @@ struct SongContext: Encodable {
     let title: String
     let song: Song
     let creator: User
+    let genres: [Genre]?
 }
 
 struct UserContext: Encodable {
     let title: String
     let user: User
     let songs: [Song]?
+}
+
+struct AllUserContext: Encodable {
+    let title: String
+    let users: [User]
+}
+
+struct GenreContext: Encodable {
+    let title: String
+    let genre: Genre
+    let songs: [Song]
+}
+
+struct AllGenresContext: Encodable {
+    let title: String
+    let genres: [Genre]
 }
