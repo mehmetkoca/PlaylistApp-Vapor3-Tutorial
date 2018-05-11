@@ -28,12 +28,12 @@ struct GenresController: RouteCollection {
     // parametre kullanarak getireceğimiz için
     // Genre sınıfına Parameter extension'ı ekledik.
     func getGenre(_ req: Request) throws -> Future<Genre> {
-        return try req.parameter(Genre.self)
+        return try req.parameters.next(Genre.self)
     }
     
     // genre içerisindeki song'ları getirecek fonksiyon.
     func getSongs(_ req: Request) throws -> Future<[Song]> {
-        return try req.parameter(Genre.self).flatMap(to: [Song].self) { genre in
+        return try req.parameters.next(Genre.self).flatMap(to: [Song].self) { genre in
             return try genre.songs.query(on: req).all()
         }
     }

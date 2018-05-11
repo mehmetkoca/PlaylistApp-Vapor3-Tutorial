@@ -1,0 +1,153 @@
+cb261cc4e559432287038298f8c605bdaba28824	not-for-merge	branch '1.1.0' of https://github.com/vapor/fluent-mysql
+21d436631ff06c0e58b9496971ffbbaf155822d8	not-for-merge	branch 'Casperhr-patch-1' of https://github.com/vapor/fluent-mysql
+6a2ba5b186b8046f93f5f686b605314473d65a83	not-for-merge	branch 'Casperhr-patch-2' of https://github.com/vapor/fluent-mysql
+b60b0a2e9f1e5e2952806bc13fd8cef66e50eae8	not-for-merge	branch 'add-fractional-seconds-support' of https://github.com/vapor/fluent-mysql
+72983daa2b1e406f4daaea2b19f0a3c9fb7dd7e3	not-for-merge	branch 'beta' of https://github.com/vapor/fluent-mysql
+a77588f09105cb2bb24ce3ad88ee151daf42f886	not-for-merge	branch 'case-convention' of https://github.com/vapor/fluent-mysql
+c5114daf3b9adf48223fb27a3a28184449c07c49	not-for-merge	branch 'casperhr' of https://github.com/vapor/fluent-mysql
+23f98e146d5525edf27560cf816f148202535e62	not-for-merge	branch 'delete-foreign-key' of https://github.com/vapor/fluent-mysql
+4422522069eec2d86bd8ca98e8c0361d01241e6e	not-for-merge	branch 'fix-1334' of https://github.com/vapor/fluent-mysql
+3e364d440eea95bb52520993914ea92292d19309	not-for-merge	branch 'fluent-1.4' of https://github.com/vapor/fluent-mysql
+1b31c315b78155498c0aa275ba87e5b34d6801db	not-for-merge	branch 'fluent-10' of https://github.com/vapor/fluent-mysql
+6d5890d455c1aac470fd9d638adb1e5e055217ac	not-for-merge	branch 'id-type-cleanup' of https://github.com/vapor/fluent-mysql
+19956a04b1983f20879d9c770a49d7948c42b270	not-for-merge	branch 'master' of https://github.com/vapor/fluent-mysql
+88b3bbdb250e7c05ee11a647998c892dd44f7af4	not-for-merge	branch 'nio' of https://github.com/vapor/fluent-mysql
+a4ff5ccde3af0a02a46b0fa8e745150758fe33fe	not-for-merge	branch 'two' of https://github.com/vapor/fluent-mysql
+3d0ae92b3373da31ad4c50e0debcd8664ee38458	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/fluent-mysql
+816ea1435dc4ed4c1bcda008b6905f15733e805b	not-for-merge	'refs/pull/10/head' of https://github.com/vapor/fluent-mysql
+0c9d4cc7e4fea829f8861ae640c1e9be0c7c2b38	not-for-merge	'refs/pull/10/merge' of https://github.com/vapor/fluent-mysql
+e6d00fb6f049951ca027c9b20b04fe966c5c0c3b	not-for-merge	'refs/pull/100/head' of https://github.com/vapor/fluent-mysql
+b6ab3fb9728257436384e35a84ec44bce3220f21	not-for-merge	'refs/pull/105/head' of https://github.com/vapor/fluent-mysql
+73ad33dbaaf32f023703cf57fd71cdeded67c651	not-for-merge	'refs/pull/106/head' of https://github.com/vapor/fluent-mysql
+a707d823c3d21a2a72c609a0418782ab27366807	not-for-merge	'refs/pull/106/merge' of https://github.com/vapor/fluent-mysql
+1b31c315b78155498c0aa275ba87e5b34d6801db	not-for-merge	'refs/pull/11/head' of https://github.com/vapor/fluent-mysql
+c7fe3917b01dbab460849d531e56a6b9e0c4c393	not-for-merge	'refs/pull/11/merge' of https://github.com/vapor/fluent-mysql
+ae733e45d84fed29cd5fea4d35e4a18120ef3818	not-for-merge	'refs/pull/12/head' of https://github.com/vapor/fluent-mysql
+a32807ac25d15897f506a5fffa415287209b72d8	not-for-merge	'refs/pull/13/head' of https://github.com/vapor/fluent-mysql
+b65153454c52d015b2b74b33e92e1b9130f4d419	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/fluent-mysql
+68fccc8cb75498a172e90486b31a930c0d2e290a	not-for-merge	'refs/pull/15/head' of https://github.com/vapor/fluent-mysql
+d682488aceb0b5b41edf8f77798babd7a3da8e3a	not-for-merge	'refs/pull/15/merge' of https://github.com/vapor/fluent-mysql
+3b08887df2f1791b510689d951805ae0bf1c1f89	not-for-merge	'refs/pull/16/head' of https://github.com/vapor/fluent-mysql
+049794e509ac994f055d794cff26c477b6198d68	not-for-merge	'refs/pull/16/merge' of https://github.com/vapor/fluent-mysql
+03b31febf3fe9b2a22a28d8ffad1f4da71b4b772	not-for-merge	'refs/pull/17/head' of https://github.com/vapor/fluent-mysql
+748d178368e93e68152301af91ac7d50db09f762	not-for-merge	'refs/pull/17/merge' of https://github.com/vapor/fluent-mysql
+4b1b068d937b6336bb8125cab90b376800007ae7	not-for-merge	'refs/pull/18/head' of https://github.com/vapor/fluent-mysql
+764c96b4770ccd6289156a5a1ecf55af6fbaba4b	not-for-merge	'refs/pull/19/head' of https://github.com/vapor/fluent-mysql
+66a2a5a60575a4af29d8898e9949cf8b4cbd54bd	not-for-merge	'refs/pull/2/head' of https://github.com/vapor/fluent-mysql
+37c64c16a5886d268cea450bcc6a81bee695fa41	not-for-merge	'refs/pull/20/head' of https://github.com/vapor/fluent-mysql
+b60b0a2e9f1e5e2952806bc13fd8cef66e50eae8	not-for-merge	'refs/pull/21/head' of https://github.com/vapor/fluent-mysql
+756309107e820953f3b33d0cf0f259b7a511c674	not-for-merge	'refs/pull/21/merge' of https://github.com/vapor/fluent-mysql
+b2a77e47bf545f7f762c3cc7ee79689b93899042	not-for-merge	'refs/pull/22/head' of https://github.com/vapor/fluent-mysql
+ccc2dbc1962af5effe6cc2224f11c3309669bf50	not-for-merge	'refs/pull/22/merge' of https://github.com/vapor/fluent-mysql
+fcf4e624f3fbee70eb46f3335303a1426a003544	not-for-merge	'refs/pull/24/head' of https://github.com/vapor/fluent-mysql
+21d436631ff06c0e58b9496971ffbbaf155822d8	not-for-merge	'refs/pull/25/head' of https://github.com/vapor/fluent-mysql
+6a2ba5b186b8046f93f5f686b605314473d65a83	not-for-merge	'refs/pull/26/head' of https://github.com/vapor/fluent-mysql
+c5114daf3b9adf48223fb27a3a28184449c07c49	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/fluent-mysql
+3e364d440eea95bb52520993914ea92292d19309	not-for-merge	'refs/pull/28/head' of https://github.com/vapor/fluent-mysql
+cd1aa1c6320344ce81d7648b4a3ce8d503840db7	not-for-merge	'refs/pull/28/merge' of https://github.com/vapor/fluent-mysql
+5aa615d0eed2ba379756bb6d87a29e9ce4ecef70	not-for-merge	'refs/pull/29/head' of https://github.com/vapor/fluent-mysql
+8c0eb4e40577db1f58499b0a16700e394c7a5a70	not-for-merge	'refs/pull/29/merge' of https://github.com/vapor/fluent-mysql
+c3115a1641019a18e2e9c2cebd2e36ff24059570	not-for-merge	'refs/pull/3/head' of https://github.com/vapor/fluent-mysql
+36602b804466bc674311ead9b694534c42488389	not-for-merge	'refs/pull/3/merge' of https://github.com/vapor/fluent-mysql
+1870c41c608aa90ba41749ab12ba1ee5637e7b7f	not-for-merge	'refs/pull/30/head' of https://github.com/vapor/fluent-mysql
+a77588f09105cb2bb24ce3ad88ee151daf42f886	not-for-merge	'refs/pull/31/head' of https://github.com/vapor/fluent-mysql
+0cd712a3514783c872f8916b9c17d8413d1c9420	not-for-merge	'refs/pull/32/head' of https://github.com/vapor/fluent-mysql
+5e9bd94b703110cbd643b4f5af9b3536ae279be8	not-for-merge	'refs/pull/33/head' of https://github.com/vapor/fluent-mysql
+4671d0e6f236cb877eff21c7b0a4a4bf7d3a295b	not-for-merge	'refs/pull/35/head' of https://github.com/vapor/fluent-mysql
+c5f7c22f2e43a9c6f86b67fa75dda7a3f1b8b5bb	not-for-merge	'refs/pull/36/head' of https://github.com/vapor/fluent-mysql
+f6ee7ae5f29736cacd41c42e3daa9f72771f9907	not-for-merge	'refs/pull/37/head' of https://github.com/vapor/fluent-mysql
+a4ff5ccde3af0a02a46b0fa8e745150758fe33fe	not-for-merge	'refs/pull/38/head' of https://github.com/vapor/fluent-mysql
+21fc0cd9dcc6d2a5e278f1bd19092b8069faf632	not-for-merge	'refs/pull/4/head' of https://github.com/vapor/fluent-mysql
+53b8f3fca5ac67bafa2ed996563b2c73dcb6e5fb	not-for-merge	'refs/pull/40/head' of https://github.com/vapor/fluent-mysql
+e4c26268dd182fc1983bf909d912e612d97c73df	not-for-merge	'refs/pull/42/head' of https://github.com/vapor/fluent-mysql
+aaacb286e521b622ea90714e1537d297103e33be	not-for-merge	'refs/pull/44/head' of https://github.com/vapor/fluent-mysql
+23f98e146d5525edf27560cf816f148202535e62	not-for-merge	'refs/pull/45/head' of https://github.com/vapor/fluent-mysql
+38b8bf7c6f6ca278eacec79de79bc430bca47fe0	not-for-merge	'refs/pull/45/merge' of https://github.com/vapor/fluent-mysql
+af02c9c482563b89c8e976f9ba521b0cc4b2ece5	not-for-merge	'refs/pull/48/head' of https://github.com/vapor/fluent-mysql
+72983daa2b1e406f4daaea2b19f0a3c9fb7dd7e3	not-for-merge	'refs/pull/49/head' of https://github.com/vapor/fluent-mysql
+feec4c4e2f20209f2796250a339d3005ff761e66	not-for-merge	'refs/pull/5/head' of https://github.com/vapor/fluent-mysql
+2958e2b0a5c336603db22c6883ec7647ddb44681	not-for-merge	'refs/pull/5/merge' of https://github.com/vapor/fluent-mysql
+9f8a11dc9225ef2e14d6b55ac4d53d340638ca6b	not-for-merge	'refs/pull/50/head' of https://github.com/vapor/fluent-mysql
+4422522069eec2d86bd8ca98e8c0361d01241e6e	not-for-merge	'refs/pull/51/head' of https://github.com/vapor/fluent-mysql
+a667c19681fb3821863efafe86f5050a1449fc35	not-for-merge	'refs/pull/51/merge' of https://github.com/vapor/fluent-mysql
+6d5890d455c1aac470fd9d638adb1e5e055217ac	not-for-merge	'refs/pull/53/head' of https://github.com/vapor/fluent-mysql
+a63a683d49f09a70ef61e075104c1337439e9ac8	not-for-merge	'refs/pull/53/merge' of https://github.com/vapor/fluent-mysql
+bee65e4d6ccb8bfa1f7e86c7a7b7677d1166d471	not-for-merge	'refs/pull/54/head' of https://github.com/vapor/fluent-mysql
+77304150d10cd402cf4d0c93aaa495506efa282a	not-for-merge	'refs/pull/55/head' of https://github.com/vapor/fluent-mysql
+1e59a6177b2c3fde709925922be6a0092674c630	not-for-merge	'refs/pull/59/head' of https://github.com/vapor/fluent-mysql
+d0742c93c7cbcdac8b6fb604ec2431713af261bd	not-for-merge	'refs/pull/59/merge' of https://github.com/vapor/fluent-mysql
+3da7e9930e2ee6e36fe99f7e26adb0787dde61b6	not-for-merge	'refs/pull/6/head' of https://github.com/vapor/fluent-mysql
+786528d1ce3525b62e88d95471ea514fc3ad5560	not-for-merge	'refs/pull/64/head' of https://github.com/vapor/fluent-mysql
+4ea426276b544f234cd9f5c42f9eb379ac1041ba	not-for-merge	'refs/pull/65/head' of https://github.com/vapor/fluent-mysql
+8c5b5dc37d4ab1e86787cb5091e5b0e9d57308f1	not-for-merge	'refs/pull/67/head' of https://github.com/vapor/fluent-mysql
+9821071f3f6f03a09560316008b25996df926b80	not-for-merge	'refs/pull/67/merge' of https://github.com/vapor/fluent-mysql
+31e00520adbd1a2d35d1cf6abc3e6ca37fd36f61	not-for-merge	'refs/pull/68/head' of https://github.com/vapor/fluent-mysql
+28ce0c530742b339a1a57f0c374c53aad7fdf971	not-for-merge	'refs/pull/7/head' of https://github.com/vapor/fluent-mysql
+d535d8b83c4f0d20c4e549745a503d0460c105db	not-for-merge	'refs/pull/70/head' of https://github.com/vapor/fluent-mysql
+cb6749bd6000340f4bfcf48a226d30b7dbfbf03b	not-for-merge	'refs/pull/75/head' of https://github.com/vapor/fluent-mysql
+c31671baa98347963f144c34345330e95393c5b0	not-for-merge	'refs/pull/76/head' of https://github.com/vapor/fluent-mysql
+6692c4c248f6c20a464abf5e369be157c6933176	not-for-merge	'refs/pull/76/merge' of https://github.com/vapor/fluent-mysql
+b5706b36daa5ad1a6e78dfd97ab7caeb24cd1d0e	not-for-merge	'refs/pull/77/head' of https://github.com/vapor/fluent-mysql
+d62fdf5fa2bf8fe85fff84b1f746577f8ebc95f3	not-for-merge	'refs/pull/77/merge' of https://github.com/vapor/fluent-mysql
+dc1bc702edbec524987791c6aa739ff3ac5f6989	not-for-merge	'refs/pull/79/head' of https://github.com/vapor/fluent-mysql
+d69a0c60e454efd59e0ec510e4d7d42344b29930	not-for-merge	'refs/pull/79/merge' of https://github.com/vapor/fluent-mysql
+8ec856f0df8e5b8cbed3091a671fd2224afd2d5d	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/fluent-mysql
+88b3bbdb250e7c05ee11a647998c892dd44f7af4	not-for-merge	'refs/pull/83/head' of https://github.com/vapor/fluent-mysql
+e84021abdea95c7f5d43835da3636f2577f88556	not-for-merge	'refs/pull/84/head' of https://github.com/vapor/fluent-mysql
+0c08beebeb8ed48c04e65be6ad37ba0352d397eb	not-for-merge	'refs/pull/85/head' of https://github.com/vapor/fluent-mysql
+4301185c029681d322987eead0d5bdd8ae548198	not-for-merge	'refs/pull/86/head' of https://github.com/vapor/fluent-mysql
+9afec118db7811db180601606c76975bc8914842	not-for-merge	'refs/pull/88/head' of https://github.com/vapor/fluent-mysql
+538c1dcf994be04f7697e74c26a47b2b7167d5ad	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/fluent-mysql
+832565f9b000a77d2bb9fbfa27ebac02697e9fb4	not-for-merge	'refs/pull/9/merge' of https://github.com/vapor/fluent-mysql
+d2e842bb805860d85fbde3d869eef0e80339ef5f	not-for-merge	'refs/pull/91/head' of https://github.com/vapor/fluent-mysql
+b67952f1f339faa20aa41b44c66a1a93a2f4d47f	not-for-merge	'refs/pull/95/head' of https://github.com/vapor/fluent-mysql
+f1c6407c3b16192f2f5d7e4b719e035f5fa3c32d	not-for-merge	'refs/pull/97/head' of https://github.com/vapor/fluent-mysql
+a25967fca4ac92f892bdc86d0bfcb05c628d3046	not-for-merge	'refs/pull/97/merge' of https://github.com/vapor/fluent-mysql
+0eb3b4de8a69b0e5e426f6bbc790a9e1e56b948b	not-for-merge	tag '0.0.0' of https://github.com/vapor/fluent-mysql
+7d3ff07593091122e5397f9a1de58ef64ef6150a	not-for-merge	tag '0.1.0' of https://github.com/vapor/fluent-mysql
+6d220377e3e470cec11e64892227676b3bb021d0	not-for-merge	tag '0.1.1' of https://github.com/vapor/fluent-mysql
+2784fbeb8ba40a7356ab8f0a2f048bb5a742026c	not-for-merge	tag '0.1.2' of https://github.com/vapor/fluent-mysql
+3cbe4f9190c5331787dabd8bfc897fcaa686acb2	not-for-merge	tag '0.1.3' of https://github.com/vapor/fluent-mysql
+0626fc564ea232a2597c78b5677e678751adb50e	not-for-merge	tag '0.2.0' of https://github.com/vapor/fluent-mysql
+92556a04350679b2325c6cc03959fb6538a510b3	not-for-merge	tag '0.3.0' of https://github.com/vapor/fluent-mysql
+c2e42f82fa0541dfe081c2f53e58de34412f5dd3	not-for-merge	tag '0.4.0' of https://github.com/vapor/fluent-mysql
+f75eb6f1e57b07ed11b0199f4a619675f3b33b07	not-for-merge	tag '0.4.1' of https://github.com/vapor/fluent-mysql
+561f9f601478e42f056516e9e704bfb03220eaf6	not-for-merge	tag '0.5.0' of https://github.com/vapor/fluent-mysql
+bfb874ce0848f917122cb3a50ece5ea76dc8a926	not-for-merge	tag '0.6.0' of https://github.com/vapor/fluent-mysql
+fcb269bfadc2ca79b1fee7cefc2c97e658f377b7	not-for-merge	tag '1.0.0' of https://github.com/vapor/fluent-mysql
+123345811664180bdfc1e91e534b1052175f84c7	not-for-merge	tag '1.0.1' of https://github.com/vapor/fluent-mysql
+cb261cc4e559432287038298f8c605bdaba28824	not-for-merge	tag '1.1.0' of https://github.com/vapor/fluent-mysql
+6dafd3b240b46401db7e4780b6e1fb58c8fc3a1c	not-for-merge	tag '1.1.1' of https://github.com/vapor/fluent-mysql
+75d9b938357cc29ce30e2066bd9d7f21a2ca272b	not-for-merge	tag '1.1.2' of https://github.com/vapor/fluent-mysql
+0075fe83f834e3afcd9f521e85e6576241648fad	not-for-merge	tag '1.2.0' of https://github.com/vapor/fluent-mysql
+f1a752626229270b6886d88d4feb4df639a140ca	not-for-merge	tag '2.0.0' of https://github.com/vapor/fluent-mysql
+809d7735c641ef63080a4d0536c50f94a1b1f115	not-for-merge	tag '2.0.0-alpha.1' of https://github.com/vapor/fluent-mysql
+64225ca169a24111a7be98c9a728394fd03260e9	not-for-merge	tag '2.0.0-alpha.2' of https://github.com/vapor/fluent-mysql
+85ffe077e888747697db897c1e9b4418ce7c6eb0	not-for-merge	tag '2.0.0-alpha.3' of https://github.com/vapor/fluent-mysql
+dbc0154d8a2fc48d82cab2eb096457643fbd0d55	not-for-merge	tag '2.0.0-alpha.4' of https://github.com/vapor/fluent-mysql
+0304b55f0c9656f1bb519c996910429113f0ac98	not-for-merge	tag '2.0.0-alpha.5' of https://github.com/vapor/fluent-mysql
+6a3b89ac086844e7559314cd08466bca743926c0	not-for-merge	tag '2.0.0-beta.1' of https://github.com/vapor/fluent-mysql
+7e630e8c9fe3168d196f5a46d53c600e7b8f8e9e	not-for-merge	tag '2.0.0-beta.10' of https://github.com/vapor/fluent-mysql
+a68b676ba83c97be236103c12128765ea76b16b4	not-for-merge	tag '2.0.0-beta.11' of https://github.com/vapor/fluent-mysql
+59e65ea54db444e4fc5b58e424a0f1a9e1506eb6	not-for-merge	tag '2.0.0-beta.12' of https://github.com/vapor/fluent-mysql
+6051d8916f93a99fedf57a603159a283686d2bea	not-for-merge	tag '2.0.0-beta.2' of https://github.com/vapor/fluent-mysql
+a6b1251030ea35fbe3b3044659c99f907aa876be	not-for-merge	tag '2.0.0-beta.3' of https://github.com/vapor/fluent-mysql
+cb2b7e76afe62fb605644cb1bf7242b30a75881a	not-for-merge	tag '2.0.0-beta.4' of https://github.com/vapor/fluent-mysql
+2941ec540944f3652cd50eeab0323373577e76b9	not-for-merge	tag '2.0.0-beta.5' of https://github.com/vapor/fluent-mysql
+fa4bbb404c51dc723ebf402b4f8e38b7893fc438	not-for-merge	tag '2.0.0-beta.6' of https://github.com/vapor/fluent-mysql
+5d8c65ff04666d0e8d157b22e418645ce26a45b8	not-for-merge	tag '2.0.0-beta.7' of https://github.com/vapor/fluent-mysql
+b0574970146a983cd82a6a73fa807e9f3d516f12	not-for-merge	tag '2.0.0-beta.8' of https://github.com/vapor/fluent-mysql
+4b01463218908ed16db62f7251e38f7bc22b81d2	not-for-merge	tag '2.0.0-beta.9' of https://github.com/vapor/fluent-mysql
+c55ed27268c9b937bbf4e78994ac0d3817207e3c	not-for-merge	tag '2.0.1' of https://github.com/vapor/fluent-mysql
+bf16cc056a57a1d8c4fb25add22666112c1206e4	not-for-merge	tag '2.0.2' of https://github.com/vapor/fluent-mysql
+2f6eead84aabb265a4dae3e07083dd1b7eaa262b	not-for-merge	tag '2.0.3' of https://github.com/vapor/fluent-mysql
+7e05a2ef9ee9c064f619bd306b3a9513224d16a7	not-for-merge	tag '3.0.0-beta.3.0.0' of https://github.com/vapor/fluent-mysql
+31e00520adbd1a2d35d1cf6abc3e6ca37fd36f61	not-for-merge	tag '3.0.0-beta.3.1.0' of https://github.com/vapor/fluent-mysql
+8fef47ef39d3e0e4ad496831eee146b05ee6a03a	not-for-merge	tag '3.0.0-rc.1' of https://github.com/vapor/fluent-mysql
+25d442980a32bbc58ae00702c3af01fdaac403a3	not-for-merge	tag '3.0.0-rc.1.1' of https://github.com/vapor/fluent-mysql
+e941ebbb989a22a9dd15360681d7a511354d4ee7	not-for-merge	tag '3.0.0-rc.2' of https://github.com/vapor/fluent-mysql
+6f577efbc369b4c0e54a0edbd400af18aa30844e	not-for-merge	tag '3.0.0-rc.2.1' of https://github.com/vapor/fluent-mysql
+b979339d49805d9ed1e90f64c879ec54b0e7a6cc	not-for-merge	tag '3.0.0-rc.2.2' of https://github.com/vapor/fluent-mysql
+5c0d624c1b755593bac6ff38a5f99ceeedf81c15	not-for-merge	tag '3.0.0-rc.2.2.1' of https://github.com/vapor/fluent-mysql
+7cf4f25b5b8fd22b373944750c6c50b6ddbc8024	not-for-merge	tag '3.0.0-rc.2.3' of https://github.com/vapor/fluent-mysql
+19956a04b1983f20879d9c770a49d7948c42b270	not-for-merge	tag '3.0.0-rc.2.4' of https://github.com/vapor/fluent-mysql

@@ -1,0 +1,174 @@
+57a9b8006f27b30366efc072c29245af8abb60c9	not-for-merge	branch 'add-support-for-fractional-seconds' of https://github.com/vapor/mysql
+6f57dee332c66bf35f375184a52cea9ff656cd23	not-for-merge	branch 'connection-pool' of https://github.com/vapor/mysql
+c497c10535c5e75a1bbd8f862f2c7c2ce6a44fb8	not-for-merge	branch 'edge-case-fixes' of https://github.com/vapor/mysql
+b5984f1d5bfeecae7c96b3c22829752aa035c194	not-for-merge	branch 'fluent-updates' of https://github.com/vapor/mysql
+d13215306faa55a783ddf2c95f8427f06bc864c7	not-for-merge	branch 'iterate-result' of https://github.com/vapor/mysql
+cda473257572c8e02706d0c65fd145765c5a414d	not-for-merge	branch 'master' of https://github.com/vapor/mysql
+95df5cb277409c4f642cfdd09c09f0ba43902e0d	not-for-merge	branch 'pkg-config' of https://github.com/vapor/mysql
+10a1669c89450c556142a3effad8c50fbed93c00	not-for-merge	branch 'simplify-async' of https://github.com/vapor/mysql
+ab188d272afc30dd55272583dddd8d420400d3a9	not-for-merge	branch 'swift-rework' of https://github.com/vapor/mysql
+782f8114b4d9b74e6828c607f8a252aff252b912	not-for-merge	branch 'two' of https://github.com/vapor/mysql
+c0551e6e6ebe4e0628219a4bbae7c6918ac8d522	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/mysql
+8ebf1163fda61551ed0ebf0631d54e81a22f2f59	not-for-merge	'refs/pull/102/head' of https://github.com/vapor/mysql
+3ca9c5d4e671a96a6abd3822d8bc02369706448c	not-for-merge	'refs/pull/104/head' of https://github.com/vapor/mysql
+ab188d272afc30dd55272583dddd8d420400d3a9	not-for-merge	'refs/pull/106/head' of https://github.com/vapor/mysql
+704a2759e0731194d3a7a091a432b2a6c46b53ea	not-for-merge	'refs/pull/106/merge' of https://github.com/vapor/mysql
+31d2df2d36c0dec80e51f53c630ae2690f0f81e2	not-for-merge	'refs/pull/107/head' of https://github.com/vapor/mysql
+13f9e6a8bd22130ff3f73eeea830f7f5bddb9867	not-for-merge	'refs/pull/108/head' of https://github.com/vapor/mysql
+682c027e3f86e2f859ba54cbd4bb14302c260f01	not-for-merge	'refs/pull/108/merge' of https://github.com/vapor/mysql
+f8ce35af5b4edf94e33ca11b57d3c61ce98bff56	not-for-merge	'refs/pull/109/head' of https://github.com/vapor/mysql
+87b0a4dcb5e5d8cefab4455d95c1718ccf96648b	not-for-merge	'refs/pull/11/head' of https://github.com/vapor/mysql
+fa34d8969e5e542145a79a71b956dda503c5d89b	not-for-merge	'refs/pull/110/head' of https://github.com/vapor/mysql
+de7a63aa93f2cd120af519bc1cf47ed20c6a28aa	not-for-merge	'refs/pull/112/head' of https://github.com/vapor/mysql
+988a31be3cfca087e6917ca40e5e09d3fec05f19	not-for-merge	'refs/pull/113/head' of https://github.com/vapor/mysql
+9405390f529cb40db0f1122cf744483c203ab08e	not-for-merge	'refs/pull/113/merge' of https://github.com/vapor/mysql
+3c9e228893878361731a12aa8e6ff378bd6a84db	not-for-merge	'refs/pull/12/head' of https://github.com/vapor/mysql
+47eb7d39f647b0cb30e577cdae1e6cca2d6c5f2d	not-for-merge	'refs/pull/122/head' of https://github.com/vapor/mysql
+f096c5d726e1fba0900ddea85213373e34f4d6ba	not-for-merge	'refs/pull/123/head' of https://github.com/vapor/mysql
+850dc2a8cb70db35ba6c4c0df62e7affeea6e416	not-for-merge	'refs/pull/124/head' of https://github.com/vapor/mysql
+25b531da4613e9d8baae7563c1cf3771e20b4f20	not-for-merge	'refs/pull/127/head' of https://github.com/vapor/mysql
+f39b596756402b8ab5d0aa43a6aeb305d39482bc	not-for-merge	'refs/pull/131/head' of https://github.com/vapor/mysql
+41ab6408f508c3843a1af9faa4414b0d505a7e2e	not-for-merge	'refs/pull/132/head' of https://github.com/vapor/mysql
+120c86e38c0ca7021eaff920b2fe976a0c7b370b	not-for-merge	'refs/pull/133/head' of https://github.com/vapor/mysql
+a896dd9fd70c7d8e5ee6f2948d8d009b215f47f5	not-for-merge	'refs/pull/134/head' of https://github.com/vapor/mysql
+00905d559f7c7559169253ed254ccc1806727023	not-for-merge	'refs/pull/134/merge' of https://github.com/vapor/mysql
+5f3fea9dd86f4a6afc4f197882722546057e27f3	not-for-merge	'refs/pull/136/head' of https://github.com/vapor/mysql
+7bf68f29628c185050eae6fc00f633e3f4e1769b	not-for-merge	'refs/pull/137/head' of https://github.com/vapor/mysql
+5d0959ac1fb560625a7701fd56237455a78c8efd	not-for-merge	'refs/pull/138/head' of https://github.com/vapor/mysql
+afaaa978a8c2f951b6454666455c8feb723d8583	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/mysql
+65756e1175354702af8327594f070fc691f888e1	not-for-merge	'refs/pull/140/head' of https://github.com/vapor/mysql
+1c3614506767a76c499d598f4033286622a7a9ef	not-for-merge	'refs/pull/141/head' of https://github.com/vapor/mysql
+0604e4970e60538b992c347979cf363295e4f910	not-for-merge	'refs/pull/144/head' of https://github.com/vapor/mysql
+576683a1266327467cdab136ad99784e8fa02f03	not-for-merge	'refs/pull/145/head' of https://github.com/vapor/mysql
+f097cc2762a963d0b8d3e2f023aaff048da0070b	not-for-merge	'refs/pull/146/head' of https://github.com/vapor/mysql
+b98ac00a366563284c98f44656423a6f975b4167	not-for-merge	'refs/pull/147/head' of https://github.com/vapor/mysql
+9e942d285980982efa01fcf4853fe88dc892a4d3	not-for-merge	'refs/pull/147/merge' of https://github.com/vapor/mysql
+102bd4530f84864fafde00b19e846a47a2c16814	not-for-merge	'refs/pull/148/head' of https://github.com/vapor/mysql
+57dcef0fd468b1b982e7debfdc4d53d65f8b9536	not-for-merge	'refs/pull/151/head' of https://github.com/vapor/mysql
+b1ef024e0897e1ff2291721c04e8f4218c36cab6	not-for-merge	'refs/pull/152/head' of https://github.com/vapor/mysql
+9ea1902093c0cfcba02971fca0f6fe515367a6e5	not-for-merge	'refs/pull/155/head' of https://github.com/vapor/mysql
+c97401002170388a2751b90a214dd79b4b27e79e	not-for-merge	'refs/pull/156/head' of https://github.com/vapor/mysql
+c544c0c6cb916de2152aedee27f8c72ac1526081	not-for-merge	'refs/pull/156/merge' of https://github.com/vapor/mysql
+dadfc61450352f6461e066c9b79f6a77a1905192	not-for-merge	'refs/pull/159/head' of https://github.com/vapor/mysql
+58de17af017aba5d0b4cc206cb65b248b75e20ad	not-for-merge	'refs/pull/159/merge' of https://github.com/vapor/mysql
+a87a450908d7ff113a590ed920c995dee01b18ee	not-for-merge	'refs/pull/16/head' of https://github.com/vapor/mysql
+655f385e55374b67a2d46feeefa32f39c50d2fe6	not-for-merge	'refs/pull/161/head' of https://github.com/vapor/mysql
+c00fa5fac31aa7ec111032ea6f8724e5065770de	not-for-merge	'refs/pull/161/merge' of https://github.com/vapor/mysql
+e2712f35a5f67450f5cdfe79eaa13e187388f801	not-for-merge	'refs/pull/163/head' of https://github.com/vapor/mysql
+eb22bbe8ae2c505e7288490154df5739d5269e29	not-for-merge	'refs/pull/163/merge' of https://github.com/vapor/mysql
+5cb44073c0b5f06d264998e0c7a8321b8b01bfba	not-for-merge	'refs/pull/167/head' of https://github.com/vapor/mysql
+e93c760259b2abbdfe39ade899281ded64dec446	not-for-merge	'refs/pull/169/head' of https://github.com/vapor/mysql
+ace0d8ee5786cc297a347f7825e56ce588052af3	not-for-merge	'refs/pull/170/head' of https://github.com/vapor/mysql
+8424ef71fa8d1d3404d739a40f803d3811da4982	not-for-merge	'refs/pull/170/merge' of https://github.com/vapor/mysql
+733db84990ee2f0a2ff136e6daf7b20ec8db465f	not-for-merge	'refs/pull/171/head' of https://github.com/vapor/mysql
+e1fd4929a30014f893577bd0bb0720976ddfb308	not-for-merge	'refs/pull/171/merge' of https://github.com/vapor/mysql
+7f92d46254873bd23eb6d8d74e8f328f7f846c60	not-for-merge	'refs/pull/19/head' of https://github.com/vapor/mysql
+65bb2bf6b903da0dbddde343f919f8ae1f5e6cb4	not-for-merge	'refs/pull/19/merge' of https://github.com/vapor/mysql
+20ab8bdf780fd0fd1c6ec53c07e7da6c465da3ca	not-for-merge	'refs/pull/2/head' of https://github.com/vapor/mysql
+c95c66d25fcc23b4db53e050869c2ae222345c11	not-for-merge	'refs/pull/20/head' of https://github.com/vapor/mysql
+af7726e8b077ac20f3b37fbc62485a6b0e760a1d	not-for-merge	'refs/pull/20/merge' of https://github.com/vapor/mysql
+931a44ad43c3ca5f122bb808c6cb9224feab43fe	not-for-merge	'refs/pull/21/head' of https://github.com/vapor/mysql
+207975b9893c79e9b898fb17dffb017b1d2d181c	not-for-merge	'refs/pull/23/head' of https://github.com/vapor/mysql
+caa1865f326e4ccda4cd57f47f41e54052d4f805	not-for-merge	'refs/pull/24/head' of https://github.com/vapor/mysql
+f01f278b9d5dabf897da9a06705e5c587e22af85	not-for-merge	'refs/pull/24/merge' of https://github.com/vapor/mysql
+4f4e71e9f871e8da147eebdcabd863125ea2dc75	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/mysql
+36395886873df79d4898ce982cf79f1460ba8a1f	not-for-merge	'refs/pull/30/head' of https://github.com/vapor/mysql
+08d5abd2024dd3905576b96b71154a77d1779544	not-for-merge	'refs/pull/33/head' of https://github.com/vapor/mysql
+ffad98086db6b86ac48998e4725b28ca90b4581d	not-for-merge	'refs/pull/34/head' of https://github.com/vapor/mysql
+0a54f1260f120c85e8ced2a63b9ab40d64bce692	not-for-merge	'refs/pull/37/head' of https://github.com/vapor/mysql
+a56931f94628a86ddd2a8a93fdb4c3703997a2fb	not-for-merge	'refs/pull/41/head' of https://github.com/vapor/mysql
+2f5d07b375177c855cd4baf66399bd24ac8a7604	not-for-merge	'refs/pull/43/head' of https://github.com/vapor/mysql
+82e956c134f9f6626353035b286d4f45fb096929	not-for-merge	'refs/pull/45/head' of https://github.com/vapor/mysql
+38a4dc3c6fcbc8d8113e1a14263c4181b818fde7	not-for-merge	'refs/pull/46/head' of https://github.com/vapor/mysql
+05a9f420e4b1467dee26ace67507f5742661d99e	not-for-merge	'refs/pull/47/head' of https://github.com/vapor/mysql
+f1cd8f9c25d0b2388114f6839515d15110626f42	not-for-merge	'refs/pull/48/head' of https://github.com/vapor/mysql
+382760e1f88c6446d3aab572f84ae5003fea648b	not-for-merge	'refs/pull/49/head' of https://github.com/vapor/mysql
+f64d1aea32865cacfeb4b9fc7742916e7388e026	not-for-merge	'refs/pull/51/head' of https://github.com/vapor/mysql
+30922db19bb4722e07192cdbd6b166efc353192b	not-for-merge	'refs/pull/52/head' of https://github.com/vapor/mysql
+598cc2743c4334e90961e8df7a25a5929838b7fa	not-for-merge	'refs/pull/54/head' of https://github.com/vapor/mysql
+0f6356ffa8d6d33efeb4f88e49515065d2096a82	not-for-merge	'refs/pull/58/head' of https://github.com/vapor/mysql
+d7a8c1b73954e50fcb7b09b2d04dec1f01dcd072	not-for-merge	'refs/pull/58/merge' of https://github.com/vapor/mysql
+dc8fd254e29385d38b713fb1a3b68f6d97ba0be9	not-for-merge	'refs/pull/59/head' of https://github.com/vapor/mysql
+6f57dee332c66bf35f375184a52cea9ff656cd23	not-for-merge	'refs/pull/61/head' of https://github.com/vapor/mysql
+d19f1c7ee901d0935f273d7390f309bd26b03793	not-for-merge	'refs/pull/61/merge' of https://github.com/vapor/mysql
+7f6d91a617f2a614a6524783a0c69d0bfc0fe47d	not-for-merge	'refs/pull/66/head' of https://github.com/vapor/mysql
+57a9b8006f27b30366efc072c29245af8abb60c9	not-for-merge	'refs/pull/68/head' of https://github.com/vapor/mysql
+997ba65b8f8ea87953e973ad07e01eb1fbd8dd55	not-for-merge	'refs/pull/68/merge' of https://github.com/vapor/mysql
+6f57dee332c66bf35f375184a52cea9ff656cd23	not-for-merge	'refs/pull/69/head' of https://github.com/vapor/mysql
+f70c04a899637ff5ebf07103f4556325730b3e30	not-for-merge	'refs/pull/69/merge' of https://github.com/vapor/mysql
+fe8f4c22c5d1d368dec1d188b298e5f5b5049c57	not-for-merge	'refs/pull/71/head' of https://github.com/vapor/mysql
+bc602b9fe21dee808469fcf22b1604db6f3526c6	not-for-merge	'refs/pull/74/head' of https://github.com/vapor/mysql
+9738d43347868b10ad2d514af01916a655ca6326	not-for-merge	'refs/pull/75/head' of https://github.com/vapor/mysql
+2a4883a4d861c420ee11499264c41d33858c4c26	not-for-merge	'refs/pull/75/merge' of https://github.com/vapor/mysql
+9203a6ff9a5e3cb7775160bd192fb404b3e1133c	not-for-merge	'refs/pull/76/head' of https://github.com/vapor/mysql
+d13215306faa55a783ddf2c95f8427f06bc864c7	not-for-merge	'refs/pull/77/head' of https://github.com/vapor/mysql
+e84532ea40ab297e33210721408de09d7f6d1079	not-for-merge	'refs/pull/77/merge' of https://github.com/vapor/mysql
+df385a5b7e9919a9473f1ca7fb9a82d4ff60c2ca	not-for-merge	'refs/pull/78/head' of https://github.com/vapor/mysql
+393768a93fed1cba813ebaa8f93676c7c0f761ed	not-for-merge	'refs/pull/79/head' of https://github.com/vapor/mysql
+9025707a8f1b8f725941bd9f18d6c2eb7c07a26d	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/mysql
+5a6b9b4f1e8850204d36a90434b79b3ca343504b	not-for-merge	'refs/pull/81/head' of https://github.com/vapor/mysql
+f5d6140420d963de84978b01077e85564cdcbec8	not-for-merge	'refs/pull/84/head' of https://github.com/vapor/mysql
+df8a4c17740453e892a1d91127accc19830dc346	not-for-merge	'refs/pull/85/head' of https://github.com/vapor/mysql
+4fe3275ba00eca9ccae70f35b0e13c58030dd036	not-for-merge	'refs/pull/86/head' of https://github.com/vapor/mysql
+d7a7f07eb6d4507efc1468ba165b72439a9990fa	not-for-merge	'refs/pull/89/head' of https://github.com/vapor/mysql
+ddb73e8d567cd78ccd4a94a9addbac7e95d12ab5	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/mysql
+335c10cda9241cfcae79a42915256459414cf708	not-for-merge	'refs/pull/90/head' of https://github.com/vapor/mysql
+95df5cb277409c4f642cfdd09c09f0ba43902e0d	not-for-merge	'refs/pull/91/head' of https://github.com/vapor/mysql
+dd07f92ff5e578936f2ecf708fedd02fedfe3a42	not-for-merge	'refs/pull/92/head' of https://github.com/vapor/mysql
+1bda545cdfa94cd69e1046425270c0ff0494b1b5	not-for-merge	'refs/pull/93/head' of https://github.com/vapor/mysql
+9fbb46e915c2d8d47a930a6531c2428142a15a62	not-for-merge	'refs/pull/94/head' of https://github.com/vapor/mysql
+782f8114b4d9b74e6828c607f8a252aff252b912	not-for-merge	'refs/pull/95/head' of https://github.com/vapor/mysql
+4101a0259a7bcf5fa4211643c45b437c07b297e1	not-for-merge	'refs/pull/98/head' of https://github.com/vapor/mysql
+38a4dc3c6fcbc8d8113e1a14263c4181b818fde7	not-for-merge	tag '0.0.0' of https://github.com/vapor/mysql
+c1e8ff52b909f5478f5e69501096883fcdad438d	not-for-merge	tag '0.1.0' of https://github.com/vapor/mysql
+6d220377e3e470cec11e64892227676b3bb021d0	not-for-merge	tag '0.1.1' of https://github.com/vapor/mysql
+2784fbeb8ba40a7356ab8f0a2f048bb5a742026c	not-for-merge	tag '0.1.2' of https://github.com/vapor/mysql
+3cbe4f9190c5331787dabd8bfc897fcaa686acb2	not-for-merge	tag '0.1.3' of https://github.com/vapor/mysql
+589838bea77382fabbd667ba0db61209cdc896ec	not-for-merge	tag '0.2.0' of https://github.com/vapor/mysql
+bc020e40b68d3856c5ab6925c5dea015df5626f9	not-for-merge	tag '0.2.1' of https://github.com/vapor/mysql
+afd9976591acaf056f711c19b742577f9734a240	not-for-merge	tag '0.2.2' of https://github.com/vapor/mysql
+5c4605830d4cbbbcfbc82681d46de9ecee280ba7	not-for-merge	tag '0.2.3' of https://github.com/vapor/mysql
+0a7fbb89cc518b440f4220f7ec1f322fee026318	not-for-merge	tag '0.2.4' of https://github.com/vapor/mysql
+052d1d0b4ddda1a2e873f6aaa053de22a0bae229	not-for-merge	tag '0.3.0' of https://github.com/vapor/mysql
+2421723849d9d32add3157b3a3adbc7baa7cbd90	not-for-merge	tag '0.3.1' of https://github.com/vapor/mysql
+c1a89bb6d4a3ea8694303413905f66fdc04651a6	not-for-merge	tag '0.4.0' of https://github.com/vapor/mysql
+0b0114507da539fe135c0f2abb86a4162b117f8d	not-for-merge	tag '0.5.0' of https://github.com/vapor/mysql
+e1260118747d8da648d2e368742c1c4c504ee28c	not-for-merge	tag '0.6.0' of https://github.com/vapor/mysql
+49dc1ca6dea133e0230fc310909e5a5f2ef065fa	not-for-merge	tag '0.6.1' of https://github.com/vapor/mysql
+81c3e191d7a2ec1c6072265875f8d7f5f1b61dc7	not-for-merge	tag '0.6.2' of https://github.com/vapor/mysql
+cffa4b225a24896baf0c760f7239a894548cc64c	not-for-merge	tag '0.6.3' of https://github.com/vapor/mysql
+e942086b64028d291459c396e8216d276bcfac39	not-for-merge	tag '1.0.0' of https://github.com/vapor/mysql
+3f53190bcc2ef1d8885b3a1d395f65a163697841	not-for-merge	tag '1.0.1' of https://github.com/vapor/mysql
+50e3097e5a6ba058c375b2a5e9298098a9959940	not-for-merge	tag '1.0.2' of https://github.com/vapor/mysql
+5d8c0448864b9843aca77932e7aa53f46e0e11e0	not-for-merge	tag '1.0.3' of https://github.com/vapor/mysql
+54b9a043c8838f3885990e70bcabf3e420d5d13c	not-for-merge	tag '1.0.4' of https://github.com/vapor/mysql
+be6cfa6de420b51a7cc5be78e5d38faf58f3c1cb	not-for-merge	tag '1.0.5' of https://github.com/vapor/mysql
+50945aae7019773598f9b30c00daf45061f5f4de	not-for-merge	tag '1.1.0' of https://github.com/vapor/mysql
+80a52106a22f6b41f8ed3c1d69823f153226f514	not-for-merge	tag '1.1.1' of https://github.com/vapor/mysql
+dd67ff5c00d16413f5ffd82f6047dfbaaf01c060	not-for-merge	tag '1.1.2' of https://github.com/vapor/mysql
+33f5c518e86d5a15af96e73f44257f00a24d0823	not-for-merge	tag '2.0.0' of https://github.com/vapor/mysql
+4b830ee07e6c8c780223ed8333f3eb8bbab974b1	not-for-merge	tag '2.0.0-alpha.1' of https://github.com/vapor/mysql
+b5c30fc593e1d7939df3fd4ab6e629fce07be21f	not-for-merge	tag '2.0.0-alpha.2' of https://github.com/vapor/mysql
+a19ddab81e1e8045588dcbb12705cb944d709058	not-for-merge	tag '2.0.0-alpha.3' of https://github.com/vapor/mysql
+b5984f1d5bfeecae7c96b3c22829752aa035c194	not-for-merge	tag '2.0.0-alpha.4' of https://github.com/vapor/mysql
+c7083b350dff64c14bd7d50d1c48b3d69b10d3d4	not-for-merge	tag '2.0.0-alpha.5' of https://github.com/vapor/mysql
+0fd08de2c558230b4b73633c5c68ec95290ebfeb	not-for-merge	tag '2.0.0-beta.1' of https://github.com/vapor/mysql
+8d2a3472454e7121ba4f029a983f4c7b27094986	not-for-merge	tag '2.0.0-beta.2' of https://github.com/vapor/mysql
+95188f9e8ed6be71dd6ae3e7c6aca7283e55a686	not-for-merge	tag '2.0.0-beta.3' of https://github.com/vapor/mysql
+e906a128485a1fd377a09262a86cdb1dba4ade97	not-for-merge	tag '2.0.0-beta.4' of https://github.com/vapor/mysql
+d2698f4b5a98a4313a57503f623e5b28258d241d	not-for-merge	tag '2.0.0-beta.5' of https://github.com/vapor/mysql
+c8e0ce9b2418057f43ee20d029ca2ec7abf9cabe	not-for-merge	tag '2.0.1' of https://github.com/vapor/mysql
+45d6c07a1715a2a1f52e27be918b860dfda5a198	not-for-merge	tag '2.0.2' of https://github.com/vapor/mysql
+22f7cc1cb060f1e749a5d8feebb1803148744975	not-for-merge	tag '2.0.3' of https://github.com/vapor/mysql
+a00071e1790e39f8425da8980602bb5fa1089f5a	not-for-merge	tag '3.0.0-beta.1' of https://github.com/vapor/mysql
+3bb63436405a8253597037fe6d57f13d10d951ac	not-for-merge	tag '3.0.0-beta.2' of https://github.com/vapor/mysql
+0ab14982e206dedc7926f17a6503b5a9e9df8ada	not-for-merge	tag '3.0.0-beta.3' of https://github.com/vapor/mysql
+06257bc9bf8a4614bc427583923d26d7b3d8a91d	not-for-merge	tag '3.0.0-beta.4' of https://github.com/vapor/mysql
+b0c7a4503ec61c42e61d6261e659f5887c7c13b6	not-for-merge	tag '3.0.0-rc.1' of https://github.com/vapor/mysql
+ec23247869c0805506982aaa740e362286986b40	not-for-merge	tag '3.0.0-rc.1.1' of https://github.com/vapor/mysql
+4057d62f5576e305b6ff4b99fc3dd2eca24497a7	not-for-merge	tag '3.0.0-rc.2' of https://github.com/vapor/mysql
+c28befff72d694da67a825c157c9395ef04bac80	not-for-merge	tag '3.0.0-rc.2.0.1' of https://github.com/vapor/mysql
+29977c5b0a506536710521b990e463dcde43c8e3	not-for-merge	tag '3.0.0-rc.2.1' of https://github.com/vapor/mysql
+b27f3abb333dd4a5980caed8635ea654050d3e0e	not-for-merge	tag '3.0.0-rc.2.1.1' of https://github.com/vapor/mysql
+198576a6963973a691baaafdb1a01a078affe65c	not-for-merge	tag '3.0.0-rc.2.1.2' of https://github.com/vapor/mysql
+cda473257572c8e02706d0c65fd145765c5a414d	not-for-merge	tag '3.0.0-rc.2.2' of https://github.com/vapor/mysql

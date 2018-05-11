@@ -71,7 +71,7 @@ struct SongsController: RouteCollection {
      kullandığımız fonksiyon yapısı.
     */
     func getSong(_ req: Request) throws -> Future<Song> {
-        return try req.parameter(Song.self)
+        return try req.parameters.next(Song.self)
     }
     
     /*
@@ -80,7 +80,7 @@ struct SongsController: RouteCollection {
      silme işlemini Fluent delete() methodu ile yapıyor.
     */
     func deleteSong(_ req: Request) throws -> Future<HTTPStatus> {
-        return try req.parameter(Song.self).flatMap(to: HTTPStatus.self) { song in
+        return try req.parameters.next(Song.self).flatMap(to: HTTPStatus.self) { song in
             return song.delete(on: req).transform(to: .noContent)
         }
     }
@@ -91,7 +91,7 @@ struct SongsController: RouteCollection {
      güncelliyoruz.
     */
     func updateSong(_ req: Request) throws -> Future<Song> {
-        return try flatMap(to: Song.self, req.parameter(Song.self), req.content.decode(Song.self)) { song, updatedSong in
+        return try flatMap(to: Song.self, req.parameters.next(Song.self), req.content.decode(Song.self)) { song, updatedSong in
             song.artist = updatedSong.artist
             song.title = updatedSong.title
             return song.save(on: req)
@@ -100,21 +100,21 @@ struct SongsController: RouteCollection {
     
     // Song'un creator'unu getirmek için kullanılacak fonksiyon
     func getCreator(_ req: Request) throws -> Future<User> {
-        return try req.parameter(Song.self).flatMap(to: User.self) { song in
+        return try req.parameters.next(Song.self).flatMap(to: User.self) { song in
             return try song.creator.get(on: req)
         }
     }
     
     // Song'un genre'larını getirmek için kullanacağımız fonksiyon.
     func getGenres(_ req: Request) throws -> Future<[Genre]> {
-        return try req.parameter(Song.self).flatMap(to: [Genre].self) { song in
+        return try req.parameters.next(Song.self).flatMap(to: [Genre].self) { song in
             return try song.genres.query(on: req).all()
         }
     }
     
     // Song'a Genre eklemek için kullanacağımız fonksiyon
     func addGenre(_ req: Request) throws -> Future<HTTPStatus> {
-        return try flatMap(to: HTTPStatus.self, req.parameter(Song.self), req.parameter(Genre.self)) { song, genre in
+        return try flatMap(to: HTTPStatus.self, req.parameters.next(Song.self), req.parameters.next(Genre.self)) { song, genre in
             // SongGenrePivot'u burada modellerin requireID'leri ile kullanacağız
             let pivot = try SongGenrePivot(song.requireID(), genre.requireID())
             return pivot.save(on: req).transform(to: .ok)

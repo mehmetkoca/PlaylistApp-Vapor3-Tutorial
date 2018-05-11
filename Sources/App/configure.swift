@@ -23,13 +23,13 @@ public func configure(
     // Register middlewarer
     var middlewares = MiddlewareConfig() // Create _empty_ middleware config
     // middlewares.use(FileMiddleware.self) // Serves files from `Public/` directory
-    middlewares.use(DateMiddleware.self) // Adds `Date` header to responses
+    //middlewares.use(DateMiddleware.self) // Adds `Date` header to responses
     middlewares.use(ErrorMiddleware.self) // Catches errors and converts to HTTP response
     services.register(middlewares)
 
     // Configure a SQLite database
-    var databases = DatabaseConfig()
-    let mysqlConfig = MySQLDatabaseConfig(hostname: "localhost", port: 3306, username: "root", password: "baldeagle5", database: "vapor")
+    var databases = DatabasesConfig()
+    let mysqlConfig = MySQLDatabaseConfig(hostname: "localhost", port: 3306, username: "root", password: "password", database: "vapor")
     let database = MySQLDatabase(config: mysqlConfig)
     databases.add(database: database, as: .mysql)
     services.register(databases)

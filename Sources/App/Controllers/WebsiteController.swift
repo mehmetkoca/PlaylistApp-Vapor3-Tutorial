@@ -32,7 +32,7 @@ struct WebsiteController: RouteCollection {
     
     // linklendirdiğimiz song'lar için kullanılacak fonksiyon
     func songHandler(_ req: Request) throws -> Future<View> {
-        return try req.parameter(Song.self).flatMap(to: View.self) { song in
+        return try req.parameters.next(Song.self).flatMap(to: View.self) { song in
             return try flatMap(to: View.self, song.creator.get(on: req), song.genres.query(on: req).all()) { creator, genres in
                 let context = SongContext(title: song.title, song: song, creator: creator, genres: genres.isEmpty ? nil : genres )
                 return try req.leaf().render("song",context)
@@ -42,7 +42,7 @@ struct WebsiteController: RouteCollection {
     
     // linklendirdiğimiz user sayfası için kullanılacak fonksiyon
     func userHandler(_ req: Request) throws -> Future<View> {
-        return try req.parameter(User.self).flatMap(to: View.self) { user in
+        return try req.parameters.next(User.self).flatMap(to: View.self) { user in
             return try user.songs.query(on: req).all().flatMap(to: View.self) { songs in
                 let context = UserContext(title: user.name, user: user, songs: songs.isEmpty ? nil: songs)
                 return try req.leaf().render("user",context)
@@ -60,7 +60,7 @@ struct WebsiteController: RouteCollection {
     
     // genre page için kullanacağımız fonksiyon
     func GenreHandler(_ req: Request) throws -> Future<View> {
-        return try req.parameter(Genre.self).flatMap(to: View.self) { genre in
+        return try req.parameters.next(Genre.self).flatMap(to: View.self) { genre in
             return try genre.songs.query(on: req).all().flatMap(to: View.self) { songs in
                 let context = GenreContext(title: genre.name, genre: genre, songs: songs)
                 return try req.leaf().render("genre", context)

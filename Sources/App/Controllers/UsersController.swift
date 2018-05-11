@@ -30,12 +30,12 @@ struct UsersController: RouteCollection {
     // user'ı parametre ile getireceğimiz için
     // User sınıfına Parameter extension'ı ekliyoruz.
     func getUser(_ req: Request) throws -> Future<User> {
-        return try req.parameter(User.self)
+        return try req.parameters.next(User.self)
     }
     
     // User'ın tüm Song'larını geri döndüren fonksiyon.
     func getSongs(_ req: Request) throws -> Future<[Song]> {
-        return try req.parameter(User.self).flatMap(to: [Song].self) {user in
+        return try req.parameters.next(User.self).flatMap(to: [Song].self) {user in
             return try user.songs.query(on: req).all()
         }
     }
