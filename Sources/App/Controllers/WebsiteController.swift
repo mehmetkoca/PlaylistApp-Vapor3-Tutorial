@@ -16,6 +16,10 @@ struct WebsiteController: RouteCollection {
         router.get("genres", Genre.parameter, use: GenreHandler)
         // tüm genre'ları getirmek için kullanacağımız route yapısı
         router.get("genres", use: allGenresHandler)
+        // Song eklemek için kullanacağımız route yapısı
+        router.get("add-song", use: addSongHandler)
+        // Form'dan aldığımız verileri kaydetmek için kullanacağımız fonksiyonun route yapısı
+        router.post("add-song", use: addSongPostHandler)
     }
     
     // index page için kullanacağımız fonksiyon
@@ -75,6 +79,35 @@ struct WebsiteController: RouteCollection {
             return try req.leaf().render("allGenres", context)
         }
     }
+    
+    // Song eklemek için kullanacağımız fonksiyon.
+    // Song ekleme sayfasında title, user gibi seçimlerimiz olacağı için
+    // daha önce yaptığımız gibi Struct yapısı oluşturuyoruz aşağıda. -AddSongContext adında-
+    func addSongHandler(_ req: Request) throws -> Future<View> {
+        return User.query(on: req).all().flatMap(to: View.self) { users in
+             let context = AddSongContext(title: "Add Song", users: users)
+             return try req.leaf().render("addSong", context )
+        }
+    }
+    
+    // View'dan aldığımız dataları Song olarak kaydetmemizi sağlayacak fonksiyon.
+    // Geri dönüş değerimiz Response tipinde olacak.
+    func addSongPostHandler(_ req: Request) throws -> Future<Response> {
+        // View'dan gelecek datalarımız belli olduğu için SongPostData adında bir Struct oluşturduk.
+        return try req.content.decode(SongPostData.self).flatMap(to: Response.self) { data in
+            // Datalar ile yeni bir Song yarattık.
+            let song = Song(artist: data.songArtist, title: data.songTitle, creatorID: data.user )
+            // Song'u kaydedeceğiz fakat geri dönüş değerine göre sayfa yönlendirmesi de yapmak istiyoruz.
+            return song.save(on: req).map(to: Response.self) { song in
+                guard let id = song.id else {
+                    // id almakta başarısız olursak anasayfaya yönlendirsin
+                    return req.redirect(to: "/")
+                }
+                // Song oluşturma başarılı olduğunda kaydettiğimiz Song'un sayfasına yönlendirsin.
+                return req.redirect(to: "/songs/\(id)")
+            }
+        }
+    }
 }
 
 extension Request {
@@ -120,4 +153,16 @@ struct GenreContext: Encodable {
 struct AllGenresContext: Encodable {
     let title: String
     let genres: [Genre]
+}
+
+struct AddSongContext: Encodable {
+    let title: String
+    let users: [User]
+}
+
+struct SongPostData: Content {
+    static var defaultMediaType = MediaType.urlEncodedForm
+    let songArtist: String
+    let songTitle: String
+    let user: UUID
 }
