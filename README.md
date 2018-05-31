@@ -23,4 +23,5 @@
 [Server Side Swift: Vapor 3 — Bölüm 2: API Oluşturma Part 1/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-bölüm-2-api-oluşturma-part-1-2-809e7cf8485c) <br>
 [Server Side Swift: Vapor 3 — Bölüm 2: API Oluşturma Part 2/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-api-oluşturma-part-2-2-f93923d6db45) <br>
 [Server Side Swift: Vapor 3 — Bölüm 3: Leaf ile Templating Part 1/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-bölüm-3-leaf-ile-templating-part-1-2-5d80fa1d6536)
+[Server Side Swift: Vapor 3 — Bölüm 3: Leaf ile Templating Part 2/2](https://medium.com/@mhmtkc/server-side-swift-vapor-3-bölüm-3-leaf-ile-templating-part-2-2-e4288c29cd7d?)
 
