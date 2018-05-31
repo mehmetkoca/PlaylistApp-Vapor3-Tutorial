@@ -20,6 +20,12 @@ struct WebsiteController: RouteCollection {
         router.get("add-song", use: addSongHandler)
         // Form'dan aldığımız verileri kaydetmek için kullanacağımız fonksiyonun route yapısı
         router.post("add-song", use: addSongPostHandler)
+        // Song edit sayfası için kullanılacak route yapısı
+        router.get("songs", Song.parameter, "edit", use: editSongHandler)
+        // Edit işlemi gerçekleştirilecek song için post işlemi route yapısı
+        router.post("songs", Song.parameter, "edit", use: editSongPostHandler)
+        // Song delete işlemi için kullanılacak route yapısı
+        router.post("songs", Song.parameter, "delete", use: deleteSongHandler)
     }
     
     // index page için kullanacağımız fonksiyon
@@ -108,6 +114,37 @@ struct WebsiteController: RouteCollection {
             }
         }
     }
+    
+    // Edit Song sayfasını render etmemizi sağlayacak fonksiyon
+    func editSongHandler(_ req: Request) throws -> Future<View> {
+        return try flatMap(to: View.self, req.parameters.next(Song.self), User.query(on: req).all()) { song, users in
+            let context = EditSongContext(title: "Edit Song", song: song, users: users)
+            return try req.leaf().render("addSong",context)
+        }
+    }
+    
+    // editlenen song'un post işlemini gerçekleştirecek fonksiyon
+    func editSongPostHandler(_ req: Request) throws -> Future<Response> {
+        return try flatMap(to: Response.self, req.parameters.next(Song.self), req.content.decode(SongPostData.self)) {song, data in
+            song.artist = data.songArtist
+            song.title = data.songTitle
+            song.creatorID = data.user
+            
+            return song.save(on: req).map(to: Response.self) { song in
+                guard let id = song.id else {
+                    return req.redirect(to: "/")
+                }
+                return req.redirect(to: "/songs/\(id)")
+            }
+        }
+    }
+    
+    // Song delete işlemini gerçekleştirecek fonksiyon
+    func deleteSongHandler(_ req: Request) throws -> Future<Response> {
+        return try req.parameters.next(Song.self).flatMap(to: Response.self) { song in
+            return song.delete(on: req).transform(to: req.redirect(to: "/"))
+        }
+    }
 }
 
 extension Request {
@@ -165,4 +202,11 @@ struct SongPostData: Content {
     let songArtist: String
     let songTitle: String
     let user: UUID
+}
+
+struct EditSongContext: Encodable {
+    let title: String
+    let song: Song
+    let users: [User]
+    let editing = true
 }

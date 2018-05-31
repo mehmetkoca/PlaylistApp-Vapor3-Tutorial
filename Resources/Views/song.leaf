@@ -3,5 +3,22 @@
   <h2>#(song.artist)</h2>
 
   <p> Created by <a href="/users/#(creator.id)/">#(creator.name)</a>
+
+  #if(genres) {
+    <h3>Genres</h3>
+    <ul>
+      #for(genre in genres) {
+        <li>
+          <a href="/genres/#(genre.id)">#(genre.name)</a>
+        </li>
+      }
+    </ul>
+  }
+
+  <form method="post" action="/songs/#(song.id)/delete">
+    <a class="btn btn-primary" href="/songs/#(song.id)/edit" role="button">Edit</a>
+    <input class="btn btn-danger" type="submit" value="Delete" /> 
+  </form>
+  
 }
 #embed("base")

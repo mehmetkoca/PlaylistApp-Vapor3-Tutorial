@@ -1,29 +1,29 @@
 #set("content") {
-  <h1>Add Song</h1>
+  <h1>#if(editing){Edit Song}else{Add Song}</h1>
    
    <form method="post">
     <div class="form-group">
       <label for="songArtist">Artist</label> 
-      <input type="text" name="songArtist" class="form-control" id="songArtist"/>
+      <input type="text" name="songArtist" class="form-control" id="songArtist" #if(editing){value="#(song.artist)"}/>
     </div>
     
     <div class="form-group">
       <label for="songTitle">Title</label>
-      <input type="text" name="songTitle" class="form-control" id="songTitle"/ >
+      <input type="text" name="songTitle" class="form-control" id="songTitle" #if(editing){value="#(song.title)"}/>
     </div>
     
     <div class="form-group">
       <label for="user">User</label>
       <select name="user" class="form-control" id="user">
       #for(user in users) {
-        <option value="#(user.id)">   
+        <option value="#(user.id)" #if(editing){#if(song.creatorID == user.id){selected}}>   
           #(user.name)
         </option>
       }
       </select>
     </div>
   
-    <button type="submit" class="btn btn-success">Send</button>
+    <button type="submit" class="btn btn-success">#if(editing){Update} else {Send}</button>
    </form>
 }
 
